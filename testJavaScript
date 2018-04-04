@@ -1,0 +1,15 @@
+<script>
+    var num1, num2, sum
+    num1 = prompt("Enter first number")
+    num2 = prompt("Enter second number")
+    sum = parseInt(num1) + parseInt(num2) // "+" means "add"
+    alert("Sum = " + sum)  // "+" means combine into a string
+</script>
+
+<script>
+    var firstname, secondname, result
+    firstname = prompt("Enter first name")
+    secondname = prompt("Enter last name")
+    result = firstname + secondname  // + means "join" here
+    alert("hello, " + result)
+</script>
